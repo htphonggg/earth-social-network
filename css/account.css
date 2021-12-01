@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+/*header*/
+#header{
+    background-color:green;
+    height: 60px;
+    
+}
+.cmt{
+    position: relative;
+    bottom: 20px;
+    right: 15px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color:red;
+    border-radius: 10px;
+}
+#header div {
+    top: 10px;
+}
+#tim{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 0 0.5em 0.5em 0 ;
+    border: solid 1px black;
+    display: inline-block;
+    background-color:greenyellow;
+}
+#search input{
+    border-radius: 0.5em 0 0 0.5em;
+    font-size: 25px;
+    border: solid 1px black;
+}
+#fixed{
+    z-index: 1;
+    top: 0px;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+#tuychon  :hover{
+    color: gray;
+}
+#tuychon2  :hover{
+    color: gray;
+}
+#tuychon2 i{
+    position: absolute;
+    top: 5px;
+    color: white;
+    font-size: 20px;
+}
+#tuychon div a{
+    color: white;
+    font-size: 25px;
+}
+#tuychon div a i{
+    position: relative;
+    bottom: 10px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(79, 209, 107, 0.74);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*header*/
+
+/*main*/
+#main{
+    margin-top: 70px;
+}
+#info{
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+}
+#avt{
+    position: absolute;
+    border: solid 1px black;
+    top: 20px;
+    left: 100px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+#avt img{
+    top: 20px;
+    left: 100px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+#chitiet{
+    position: relative;
+    top: 30px;
+    height: 300px;
+    width: 400px;
+}
+        /*#chitiet div{
+    margin: 2px;
+    }*/
+#id{
+    font-family: sans-serif;
+    text-align: center;
+    top: 10px;
+    position: relative;
+    height: 30px;
+    width: 200px;
+    font-size:25px;
+}
+#edit{
+    text-align: center;
+    top: 10px;
+    position: relative;
+    border: solid 1px black;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+}
+#edit a{
+    text-decoration: none;
+    color: black;
+}
+#edit:hover{
+    text-align: center;
+    background-color: grey;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+}
+#setting{
+    top: 5px;
+    position: relative;
+    right: 60px;
+    font-size: 25px;
+}
+#setting a{
+    color: black;
+}
+#setting:hover{
+    text-align: center;
+    background-color: grey;
+    width: 50px;
+    height: 100%;
+    border-radius: 5px;
+}
+#post{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: 15px;
+}
+#fl{
+    position: relative;
+    top: 20px;
+    font-size: 15px;
+    right: 100px;
+}
+#fl a{
+    text-decoration: none;
+    color: black;
+}
+#fl:hover{
+    background-color: grey;
+    text-align: center;
+    width: 150px;
+    height: 100%;
+    border-radius: 5px;
+}
+#fler{
+    position: relative;
+    top: 20px;
+    font-size: 15px;
+    right: 150px;
+}
+#fler a{
+    text-decoration: none;
+    color: black;
+}
+#fler:hover{
+    background-color: grey;
+    text-align: center;
+    width: 200px;
+    height: 100%;
+    border-radius: 5px;
+}
+#ten{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 30px;
+}
+#dongtg{
+    text-align: center;
+    height: 500px;
+    padding: 0px;
+}
+.iicon{
+    display: inline-block;
+}
+#baiviet:hover{
+    position: relative;
+    left: 100px;
+    background-color: grey;
+    width: 150px;
+    height: 25px;
+}
+#baiviet a{
+    text-decoration: none;
+    color: black;
+}
+#ertv a{
+    text-decoration: none;
+    color: black;
+}
+#daluu a{
+    text-decoration: none;
+    color: black;
+}
+#tag a{
+    text-decoration: none;
+    color: black;
+}
+#ertv:hover{
+    position: relative;
+    left: 100px;
+    background-color: grey;
+    width: 150px;
+    height: 25px;
+}
+#daluu:hover{
+    position: relative;
+    left: 100px;
+    background-color: grey;
+    width: 150px;
+    height: 25px;
+}
+#tag:hover{
+    position: relative;
+    left: 100px;
+    background-color: grey;
+    width: 150px;
+    height: 25px;
+}
+#banner{
+    padding: 10px;
+    background-color: green;
+}
+#notconnect{
+    font-size: 30px;
+}
+/*main*/

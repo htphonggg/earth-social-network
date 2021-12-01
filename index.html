@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Earth</title>
+        <link href="./css/index.css" rel="stylesheet">
+        <link href="./vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="./vendor/font-awesome/css/all.css" rel="stylesheet">
+    </head>
+    <body class="container-fluid" >
+        
+        <!--Header-->
+
+       <div id="fixed">
+            <div id="header" class="row">
+                <div class="col-2" id="logo">
+                    <a href="#"><img src="img/logo.jpg" width="80%" height="50%"></a>
+                </div>
+                <div id="search" class="col-3">
+                    <form>
+                        <input type="text" placeholder="  Tìm Kiếm ...">
+                    <button id="tim">Tìm</button>
+                    </form>
+                </div>
+                <div id="thongbao1" class="col-5">
+                    <div id="tuychon" class="row">
+                        <div class="col">
+                            <a href="#"><i class="fas fa-home"></i></a>
+                        </div>
+                        <div class="col">
+                            <a href="#"><i class="fas fa-comment-dots"></i></a>
+                            <p class="cmt"> 2</p>
+                        </div>
+                        <div class="col">
+                            <a href="#"><i class="fas fa-bell"></i></a>
+                            <p class="cmt"> 5</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="thongbao2" class="col-2">
+                    <div id="tuychon2" class="row">
+                        <div class="col-6">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <div class="dropdown" class="col-6">
+                            <i class="fas fa-angle-down"></i>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#">Tùy chọn</a>
+                                <a class="dropdown-item" href="#"> Nhật kí hoạt động</a>
+                                <a class="dropdown-item" href="#">Đăng xuất</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+        <!--Header-->
+
+        <!--Main-->
+
+        <div id="main" class="row">
+            <div id="left" class="col-2">
+                <div id="fixed1">
+                    <p><a href="./account.html" target="_blank"> <img src="img/tin.jpg" title="Truong Phuoc Tin">Truong Phuoc Tin</a></p></p>
+                    <p><a href="#"><i class="fas fa-user-friends"></i> Bạn bè</a></p></p>
+                    <p><a href="#"><i class="fas fa-flag"></i> Trang</a></p></p>
+                    <p><a href="#"><i class="far fa-calendar-alt"></i> Sự Kiện</a></p></p>
+                    <p><a href="#"><i class="fas fa-video"></i> Watch</a></p></p>
+                    <p><a href="#"><i class="fas fa-users"></i> Nhóm</a></p></p>
+                    <p><a href="#"><i class="fas fa-clock"></i> Kỉ niệm</a></p></p>
+                    <p><a href="#"><i class="fas fa-chevron-circle-down"></i> Xem thêm</a></p></p>
+                </div>
+            </div>
+            <div id="mid" class="col-5">
+                <div id="post" class="row">
+                    <div class="icon" class="col-1">
+                        <a href="./account.html" target="_blank"><img src="img/tin.jpg" title="Truong Phuoc Tin"></a> 
+                    </div>
+                    <div id="dangbaiviet" class="col-10">
+                        <div id="select">
+                            <select>
+                                <option> <i class="fas fa-globe-americas"></i> Công khai</option>
+                                <option> <i class="fas fa-user-friends"></i> Bạn bè</option>
+                                <option> <i class="fas fa-user-minus"></i> Bạn bè trừ</option>
+                                <option> <i class="fas fa-lock"></i> Chỉ mình tôi</option>
+                            </select>
+                        </div>
+                         <form cols="10" rows="5">
+                            <div id="dang">
+                                <input type="text" name="baidang" placeholder=" Tin ơi, Bạn đang nghĩ gì..." multiple required > 
+                            </div>
+                            <div id="dkem">
+                                   <input type="file" name="image" accept="image/*"  multiple type="submit">
+                            </div>
+                            <div id="submit">
+                                <button>
+                                    Đăng
+                                </button>
+                            </div>
+                         </form>
+                    </div>
+                </div>
+                <div class="baidang">
+                    <div class="thongtin" class="row">
+                        <div class="col-2">
+                            <a href="./account.html" target="_blank"><img src="img/truongnguoita.jpg" title="Trường Người Ta"></a> 
+                        </div>
+                        <div class="col-10">
+                            <div><a href="./account.html" target="_blank"><b>Trường Người Ta</b></a></div>
+                            <div>17 giờ trước <i class="fas fa-globe-americas"></i></div>
+                        </div>
+                    </div>
+                    <div class="noidung"> Dự đoán đề năm nay nào =)) </div>
+                    <div class="hinhanh"><img src="img/de.png"></div>
+                    <div class="luotlike">
+                        <div  class="row" class="tinhnang">
+                            <div class="col"><i class="far fa-heart"></i> 945</div>
+                            <div class="col">5 Bình luận</div>
+                            <div class="col">4 Chia sẽ</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div  class="row" class="tinhnang">
+                            <div class="col"><i class="far fa-heart"></i> Yêu thích</div>
+                            <div class="col"><i class="far fa-comment-alt"></i> Bình luận</div>
+                            <div class="col"><i class="far fa-paper-plane"></i> Chia sẽ</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div id="comment" class="row">
+                        <img src="img/tin.jpg" title="Truong Phuoc Tin" width="10%" height="10%"> 
+                        <div id="nhap-comment">
+                            <form>
+                                <div id="noi-dung-nhap"><input  class="input" name="comment" placeholder="nhập bình luận" ></div>
+                                <button class="gui">Gửi</button>
+                            </form>
+                            <div id="comment-nang-cao">
+                                <button> <i class="fas fa-smile"></i>  </button>
+                                <button> <i class="fas fa-camera"></i></button>
+                                <button> <i class="fas fa-paperclip"> </i> </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="binhluan">
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/tin.jpg" title="Truong Phuoc Tin"></a> 
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Truong Phuoc Tin</b></a> Team Sóng =))</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> 17 phút</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/han.jpg" title="Gia Hân"></a> 
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Gia Hân</b></a> để Mị nói cho mà nghe</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> 1 giờ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/idol.jpg" title="Hoàng Phong"></a> 
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Hoàng Phong</b></a> Sông Đà</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> 8 giờ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/aaa.jpg" title="Huỳnh Phong"></a> 
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Huỳnh Phong</b></a> Đất nước ...</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> 8 giờ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/huong.jpg" title="Sông Hương"></a>
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Sông Hương</b></a> tên em nha :3</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> 14 giờ</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baidang">
+                    <div class="thongtin" class="row">
+                        <div class="col-2">
+                            <a href="./account.html" target="_blank"><img src="img/aaa.jpg" title="Huỳnh Phong"></a> 
+                        </div>
+                        <div class="col-10">
+                            <div><a href="./account.html" target="_blank"><b>Huỳnh Phong</b></a></div>
+                            <div>1 ngày trước <i class="fas fa-globe-americas"></i></div>
+                        </div>
+                    </div>
+                    <div class="noidung">How to qua môn ???</div>
+                    <div class="luotlike">
+                        <div  class="row" class="tinhnang">
+                            <div class="col"><i class="far fa-heart"></i> 10K</div>
+                            <div class="col">4 Bình luận</div>
+                            <div class="col">1,5k Chia sẽ</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div  class="row" class="tinhnang">
+                            <div class="col"><i class="far fa-heart"></i> Yêu thích</div>
+                            <div class="col"><i class="far fa-comment-alt"></i> Bình luận</div>
+                            <div class="col"><i class="far fa-paper-plane"></i> Chia sẽ</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div id="comment" class="row">
+                        <img src="img/tin.jpg" title="Truong Phuoc Tin" width="10%" height="10%"> 
+                        <div id="nhap-comment">
+                            <form>
+                                <div id="noi-dung-nhap"><input  class="input" name="comment" placeholder="nhập bình luận" ></div>
+                                <button class="gui">Gửi</button>
+                            </form>
+                            <div id="comment-nang-cao">
+                                <button> <i class="fas fa-smile"></i>  </button>
+                                <button> <i class="fas fa-camera"></i></button>
+                                <button> <i class="fas fa-paperclip"> </i> </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="binhluan">
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/tin.jpg" title="Truong Phuoc Tin"></a> 
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Truong Phuoc Tin</b></a> qua hết :3</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> 3 phút</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/phuc.jpg" title="Huỳnh Phúc"></a> 
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Huỳnh Phúc</b></a> game dễ bạn eyy</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> 36 phút</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/khiem.jpg" title="Hoang Quoc Khiem"></a> 
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Hoang Quoc Khiem</b></a> rớt =)))</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> 1 giờ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/vinh.jpg" title="Trần Quang Vinh"></a> 
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Trần Quang Vinh</b></a> ké .</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> 1 giờ</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baidang">
+                    <div class="thongtin" class="row">
+                        <div class="col-2">
+                            <a href="./account.html" target="_blank"><img src="img/khiem.jpg" title="Hoang Quoc Khiem"></a> 
+                        </div>
+                        <div class="col-10">
+                            <div><a href="./account.html" target="_blank"><b>Hoang Quoc Khiem</b></a> đã cập nhật ảnh đại diện</div>
+                            <div>2 giờ trước <i class="fas fa-user-friends"></i></div>
+                        </div>
+                    </div>
+                    <div class="hinhanh"><img src="img/khiem.jpg"></div>
+                    <div class="luotlike">
+                        <div  class="row" class="tinhnang">
+                            <div class="col"><i class="far fa-heart"></i> 878</div>
+                            <div class="col">3 Bình luận</div>
+                            <div class="col">45 Chia sẽ</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div  class="row" class="tinhnang">
+                            <div class="col"><i class="far fa-heart"></i> Yêu thích</div>
+                            <div class="col"><i class="far fa-comment-alt"></i> Bình luận</div>
+                            <div class="col"><i class="far fa-paper-plane"></i> Chia sẽ</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div id="comment" class="row">
+                        <img src="img/tin.jpg" title="Truong Phuoc Tin" width="10%" height="10%"> 
+                        <div id="nhap-comment">
+                            <form>
+                                <div id="noi-dung-nhap"><input  class="input" name="comment" placeholder="nhập bình luận" ></div>
+                                <button class="gui">Gửi</button>
+                            </form>
+                            <div id="comment-nang-cao">
+                                <button> <i class="fas fa-smile"></i>  </button>
+                                <button> <i class="fas fa-camera"></i></button>
+                                <button> <i class="fas fa-paperclip"> </i> </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="binhluan">
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/tin.jpg" title="Truong Phuoc Tin"></a> 
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Truong Phuoc Tin</b></a> Ngầu =))))</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> Vừa xong</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/aaa.jpg" title="Huỳnh Phong"></a> 
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Huỳnh Phong</b></a> gkee</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> 5 phút</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/khiem.jpg" title="Hoang Quoc Khiem"></a> 
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Hoang Quoc Khiem</b></a> ...</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> 1 giờ</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baidang">
+                    <div class="thongtin" class="row">
+                        <div class="col-2">
+                            <a href="./account.html" target="_blank"><img src="img/daomeo.jpg"></a> 
+                        </div>
+                        <div class="col-10">
+                            <div><a href="./account.html" target="_blank"><b>Đảo mèo</b></a></div>
+                            <div>15 tháng 5 <i class="fas fa-globe-americas"></i></div>
+                        </div>
+                    </div>
+                    <div class="noidung">Hoàng Thượng </div>
+                    <div class="hinhanh"><img src="img/meo.jpg"></div>
+                    <div class="luotlike">
+                        <div  class="row" class="tinhnang">
+                            <div class="col"><i class="far fa-heart"></i> 1,2k</div>
+                            <div class="col">3 Bình luận</div>
+                            <div class="col">2 Chia sẽ</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div  class="row" class="tinhnang">
+                            <div class="col"><i class="far fa-heart"></i> Yêu thích</div>
+                            <div class="col"><i class="far fa-comment-alt"></i> Bình luận</div>
+                            <div class="col"><i class="far fa-paper-plane"></i> Chia sẽ</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div id="comment" class="row">
+                        <img src="img/tin.jpg" title="Truong Phuoc Tin" width="10%" height="10%"> 
+                        <div id="nhap-comment">
+                            <form>
+                                <div id="noi-dung-nhap"><input  class="input" name="comment" placeholder="nhập bình luận" ></div>
+                                <button class="gui">Gửi</button>
+                            </form>
+                            <div id="comment-nang-cao">
+                                <button> <i class="fas fa-smile"></i>  </button>
+                                <button> <i class="fas fa-camera"></i></button>
+                                <button> <i class="fas fa-paperclip"> </i> </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="binhluan">
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/han.jpg" title="Gia Hân"></a> 
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Gia Hân</b></a> awwwww</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> Vừa xong</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/hung.jpg" title="Thanh Hưng"></a> 
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Thanh Hưng</b></a> cutee</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> 4 ngày</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/aaa.jpg" title="Huỳnh Phong"></a> 
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Huỳnh Phong</b></a> cưng vl</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> 10 ngày</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baidang">
+                    <div class="thongtin" class="row">
+                        <div class="col-2">
+                            <a href="./account.html" target="_blank"><img src="img/nam.jpg"></a> 
+                        </div>
+                        <div class="col-10">
+                            <div><a href="./account.html" target="_blank">Đậu Hải Nam</a></div>
+                            <div>3 phút trước <i class="fas fa-globe-americas"></i></div>
+                        </div>
+                    </div>
+                    <div class="noidung">Mưa gì mưa quài :(((</div>
+                    <div class="luotlike">
+                        <div  class="row" class="tinhnang">
+                            <div class="col"><i class="far fa-heart"></i> 34</div>
+                            <div class="col">3 Bình luận</div>
+                            <div class="col">1 Chia sẽ</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div  class="row" class="tinhnang">
+                            <div class="col"><i class="far fa-heart"></i> Yêu thích</div>
+                            <div class="col"><i class="far fa-comment-alt"></i> Bình luận</div>
+                            <div class="col"><i class="far fa-paper-plane"></i> Chia sẽ</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div id="comment" class="row">
+                        <img src="img/tin.jpg" title="Truong Phuoc Tin" width="10%" height="10%"> 
+                        <div id="nhap-comment">
+                            <form>
+                                <div id="noi-dung-nhap"><input  class="input" name="comment" placeholder="nhập bình luận" ></div>
+                                <button class="gui">Gửi</button>
+                            </form>
+                            <div id="comment-nang-cao">
+                                <button> <i class="fas fa-smile"></i>  </button>
+                                <button> <i class="fas fa-camera"></i></button>
+                                <button> <i class="fas fa-paperclip"> </i> </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="binhluan">
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/han.jpg" title="Gia Hân"></a> 
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Gia Hân</b></a> mát =))))</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> Vừa xong</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/tin.jpg" title="Truong Phuoc Tin"></a> 
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Truong Phuoc Tin</b></a> xèo xuồng được luôn mà :3</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> 1 phút</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="thongtin" class="row">
+                                <div class="col-2">
+                                    <a href="./account.html" target="_blank"><img src="img/aaa.jpg" title="Huỳnh Phong"></a> 
+                                </div>
+                                <div class="col-10">
+                                    <div><a href="./account.html" target="_blank"><b>Huỳnh Phong</b></a> quạo =))</div>
+                                    <div><a href="./account.html"><i class="far fa-heart"></i>  </a><a href="./account.html">Trả lời  </a> 3 phút</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3"> 
+                <div id="fixed2">
+                    <div id="game">
+                        <div>Game đề xuất</div>
+                            <div>
+                            <div id="game1" class="row">
+                                <div class="col"><a href="#"> <img src="./img/lienquan.jpg"> </a></div>
+                                <div class="col"><a href="#"> <img src="./img/gunny.jpg"> </a></div>
+                                <div class="col"><a href="#"> <img src="./img/2s.png"> </a></div>
+                            </div>
+                            <div id="game2" class="row">
+                                <div class="col"><a href="#"> <img src="./img/bangbang.png"> </a></div>
+                                <div class="col"><a href="#"> <img src="./img/honkai.jpg"> </a></div>
+                                <div class="col"><a href="#"> <img src="./img/pubg.jpg"> </a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="friend" class="col-2">
+               <div id="fixed3">
+                    <div id="dexuat">
+                        <div><a href="./account.html" target="_blank"><img src="img/aaa.jpg"> Huỳnh Phong</a></div>
+                        <div class="active"></div>
+                        <div><a href="./account.html" target="_blank"><img src="img/khiem.jpg"> Quoc Khiem</a></div>
+                        <div class="active"></div>
+                        <div><a href="./account.html" target="_blank"><img src="img/phuc.jpg"> Huỳnh Phúc</a></div>
+                        <div class="active"></div>
+                        <div><a href="./account.html" target="_blank"><img src="img/nhi.jpg"> Dinh Thao Nhi</a></div>
+                        <div class="active"></div>
+                        <div><a href="./account.html" target="_blank"><img src="img/quyet.jpg"> Huỳnh Quyết</a></div>
+                        <div class="active"></div>
+                    </div>
+                    <div id="online">
+                        <div><a href="./account.html" target="_blank"><img src="img/huong.jpg"> Sông Hương</a></div>
+                        <div class="active"></div>
+                        <div><a href="./account.html" target="_blank"><img src="img/han.jpg"> Gia Hân</a></div>
+                        <div class="active"></div>
+                        <div><a href="./account.html" target="_blank"><img src="img/nam.jpg"> Đậu Hải Nam</a></div>
+                        <div class="active"></div>
+                        <div><a href="./account.html" target="_blank"><img src="img/idol.jpg"> Hoàng Phong</a></div>
+                        <div class="active"></div>
+                        <div><a href="./account.html" target="_blank"><img src="img/vinh.jpg"> Trần Quang Vinh</a></div>
+                        <div class="active"></div>
+                        <div><a href="./account.html" target="_blank"><img src="img/aaa.jpg"> Quang Vinh</a></div>
+                        <div class="active"></div>
+                        <div><a href="./account.html" target="_blank"><img src="img/vy.jpg"> Huỳnh Vy</a></div>
+                        <div class="active"></div>
+                        <div><a href="./account.html" target="_blank"><img src="img/kent.jpg"> Minh Tuấn</a></div>
+                        <div class="active"></div>
+                        <div><a href="./account.html" target="_blank"><img src="img/hung.jpg"> Thanh Hưng</a></div>
+                        <div class="active"></div>
+                    </div>
+                    <div id="offline">
+                        <div><a href="./account.html" target="_blank"><img src="img/avatar.jpg"> Anh Khoa</a></div>
+                        <div class="off">12p</div>
+                        <div><a href="./account.html" target="_blank"><img src="img/avatar.jpg"> Đức Phát</a></div>
+                        <div class="off">1p</div>
+                        <div><a href="./account.html" target="_blank"><img src="img/avatar.jpg"> Viết Thọ</a></div>
+                        <div class="off">5p</div>
+                        <div><a href="./account.html" target="_blank"><img src="img/avatar.jpg"> Thanh Bạch</a></div>
+                        <div class="off">2p</div>
+                        <div><a href="./account.html" target="_blank"><img src="img/avatar.jpg"> Văn Thức</a></div>
+                        <div class="off">1p</div>
+                        <div><a href="./account.html" target="_blank"><img src="img/avatar.jpg"> Quốc Trung</a></div>
+                        <div class="off">5p</div>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </body>
+</html>

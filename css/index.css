@@ -1,0 +1,452 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/*header*/
+#header{
+    background-color:green;
+    height: 60px;
+    
+}
+.cmt{
+    position: relative;
+    bottom: 20px;
+    right: 15px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color:red;
+    border-radius: 10px;
+}
+#header div {
+    top: 10px;
+}
+#search{
+    position: relative;
+}
+#tim{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 0 0.5em 0.5em 0 ;
+    border: solid 1px black;
+    display: inline-block;
+    background-color:greenyellow;
+}
+#search input{
+    border-radius: 0.5em 0 0 0.5em;
+    font-size: 25px;
+    border: solid 1px black;
+}
+#fixed{
+    z-index: 1;
+    top: 0px;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+#tuychon  :hover{
+    color: gray;
+}
+#tuychon2  :hover{
+    color: gray;
+}
+#tuychon2 i{
+    position: absolute;
+    top: 5px;
+    color: white;
+    font-size: 20px;
+}
+#tuychon div a{
+    color: white;
+    font-size: 25px;
+}
+#tuychon div a i{
+    position: relative;
+    bottom: 10px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(79, 209, 107, 0.74);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*header*/
+
+
+/*main*/
+#main{
+    height: 400px;
+    margin-top: 70px;
+}
+#post{
+    position: relative;
+    border: solid 1px black;
+    border-radius: 0.7em 0.7em 0.7em 0.7em;
+    height: 75px;
+    width: 95%;
+    left: 30px;
+    background-color: rgb(238, 241, 236);
+}
+.icon{
+    border-radius: 50%;
+    background-color: gray;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+}
+.icon img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.icon i{
+    color: black;
+    margin-left: 9px;
+    margin-top: 7px;
+}
+
+#dangbaiviet{
+    position: relative;
+    height: 100px;
+}
+#submit button{
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    width: 50px;
+    background-color: greenyellow;
+    border-radius: 0.5em;
+}
+#dang{
+    position: absolute;
+    left: 15px;
+    top: 5px;
+}
+#select{
+    position: absolute;
+    left: 320px;
+    bottom: 30px;
+    padding: 0px;
+} 
+#select select{
+    border-radius: 0.5em;
+}
+#dang input{
+    border-radius: 0.5em;
+    width: 300px;
+}
+#dkem{
+    position: absolute;
+    left: 15px;
+    top: 35px;
+}
+#dkem input{
+    border: solid 1px black;
+    border-radius: 0.5em;
+}
+#dkem{
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+}
+
+#left{
+    height: 100%;
+    text-align: left;
+    width: 100%;
+    
+}
+#fixed1{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+/*#fixed2{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}*/
+#fixed3{
+    position: fixed;
+}
+#left img{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+#left p{
+    color: white;
+    font-size: 20px;
+}
+#left i{
+    color: rgba(125, 179, 137, 0.74)
+}
+#left a{
+    color: black;
+    text-decoration: none;
+}
+#left a:hover{
+    color: rgba(125, 179, 137, 0.74);
+}
+#friend img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+#friend div{
+    font-size: 15px;
+}
+#friend a{
+    color: black;
+    text-decoration: none;
+}
+#friend a:hover{
+    color: rgba(125, 179, 137, 0.74);
+}
+#friend{
+    border-left: 2px solid gray;
+    background-color: rgb(238, 241, 236);
+}
+#offline div{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+#online div{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+#game{
+    position: relative;
+    right: 10px;
+    height: 90%;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(238, 241, 236);
+    padding-bottom: 5px;
+    border: black solid 1px;
+    text-align: center;
+}
+#game1 div{
+    position: relative;
+    border-radius: 5px;
+    left:25px;
+    border: 1px solid black;
+    height: 90%;
+    width: 33%;
+    margin: 5px;
+    display: inline-block;
+    padding: 0px;
+}
+#game1 div img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+#game2 div{
+    position: relative;
+    border-radius: 5px;
+    left:25px;
+    border: 1px solid black;
+    height: 90%;
+    width: 33%;
+    margin: 5px;
+    display: inline-block;
+    padding: 0px;
+}
+#game2 div img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+#game1{
+    width: 285px;
+    height: 150px;
+}
+#game2{
+    width: 285px;
+    height: 150px;
+}
+hr{
+    color: black;
+}
+div .baidang{
+    border: solid 1px black;
+    margin: 10px;
+    border-radius: 5px;
+}
+#online div{
+    display: inline-block;
+}
+#dexuat div{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+#offline div{
+    display: inline-block;
+}
+.active{
+    position: relative;
+    top: 2px;
+    height: 5px;
+    width: 5px;
+    background-color: green;
+    border-radius: 50%;
+}
+.off{
+    font-weight: 100;
+    display: inline-block;
+    font-size: xx-small;
+}
+.baidang{
+    background-color: rgb(238, 241, 236);
+}
+/*.baidang>div{
+    border: 1px solid red;
+}*/
+.hinhanh{
+    height: 500px;
+}
+.hinhanh img{
+    width: 100%;
+    height: 100%;
+}
+.thongtin{
+    width: 100%;
+    height: 70px;
+}
+.container{
+    text-align: center;
+}
+.tinhnang div{
+    display: inline-block;
+}
+.luotlike{
+    text-align: center;
+}
+.thongtin a{
+    color: black;
+    text-decoration: none;
+}
+.thongtin a:hover{
+    color: black;
+    text-decoration: none;
+}
+.thongtin img{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+.thongtin>div{
+    float: left;
+    padding: 0;
+
+}
+.thongtin>div>div{
+    margin-top: 1%;
+}
+.noidung{
+    padding: 0 0;
+    margin-left: 2%;
+}
+.hinhanh{
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.hinhanh img{
+    width: 98%;
+    height: 100%;
+}
+.comment{
+    width: 100%;
+    height: 70px;
+}
+.comment a{
+    color: black;
+    text-decoration: none;
+}
+.omment a:hover{
+    color: black;
+    text-decoration: none;
+}
+.comment img{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+#nhap-comment{
+    border: 0.5px solid black;
+    border-radius: 25px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 80%;
+    height: 80%;
+    position: relative;
+}
+#comment-nang-cao {
+    position: absolute;
+    top: 10px;
+    right: 1px;
+    display: inline-block;
+}
+#nhap-comment input{
+    width: 70%;
+    height: 100%;
+    border: none;
+    margin: 5% 0;
+    background-color: rgb(238, 241, 236);
+
+}
+#nhap-comment>div{
+    display: inline-block;
+}
+#noi-dung-nhap{
+    margin-left: 5%;
+    display: inline-block;
+}
+#comment-nang-cao button{
+    background-color: rgb(238, 241, 236);
+    color: black;
+    border: none;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#comment img{
+    border-radius: 50%;
+    width: 12%;
+}
+#comment{
+    width: 80%;
+    margin: 0;
+    margin-left: 2%;
+}
+.gui{
+    border-radius: 0.5em;
+    width: 50px;
+    position: absolute;
+    right: 100px;
+    top: 5px;
+}
+/*main*/
